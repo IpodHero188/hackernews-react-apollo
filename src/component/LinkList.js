@@ -2,7 +2,7 @@ import React from 'react';
 import Link from './Link';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
-
+    
 export default function LinkList () {
 
     const FEED_QUERY = gql 
